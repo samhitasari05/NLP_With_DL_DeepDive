@@ -4,8 +4,6 @@ This project compares two Feedforward Neural Networks (FFNNs) for classifying ai
 - One implemented **from scratch using NumPy**
 - Another built using **PyTorch’s neural network module**
 
-🧪 Developed as part of AIT 726 – NLP with Deep Learning at George Mason University.
-
 ---
 
 ## ✈️ Project Overview

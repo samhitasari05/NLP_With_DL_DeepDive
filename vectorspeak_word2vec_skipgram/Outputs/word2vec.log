@@ -1,0 +1,580 @@
+2025-02-16 00:36:47 - Log file created at: results/word2vec.log
+2025-02-16 00:36:47 - Starting Word2Vec training process
+2025-02-16 00:36:47 - Loading training data...
+2025-02-16 00:36:47 - Loading from: train/positive
+2025-02-16 00:36:48 - Loading from: train/negative
+2025-02-16 00:36:49 - Loaded 2904 texts from train set
+2025-02-16 00:36:49 - Building vocabulary...
+2025-02-16 00:36:49 - Vocabulary size: 6262
+2025-02-16 00:36:49 - Generating training pairs...
+2025-02-16 00:37:06 - Generated 568932 training pairs
+2025-02-16 00:37:06 - 
+Training Logistic Regression model...
+2025-02-16 00:37:07 - Starting training with 8890 total batches
+2025-02-16 00:37:18 - Epoch 0 completed:
+2025-02-16 00:37:18 -   Total Loss: 5292.6318
+2025-02-16 00:37:18 -   Average batch loss: 0.5953
+2025-02-16 00:37:18 -   Number of batches: 8890
+2025-02-16 00:37:18 -   Learning rate: 0.1
+2025-02-16 00:38:15 - Epoch 1 completed:
+2025-02-16 00:38:15 -   Total Loss: 4892.2047
+2025-02-16 00:38:15 -   Average batch loss: 0.5503
+2025-02-16 00:38:15 -   Number of batches: 8890
+2025-02-16 00:38:15 -   Learning rate: 0.1
+2025-02-16 00:38:24 - Epoch 2 completed:
+2025-02-16 00:38:24 -   Total Loss: 4603.4378
+2025-02-16 00:38:24 -   Average batch loss: 0.5178
+2025-02-16 00:38:24 -   Number of batches: 8890
+2025-02-16 00:38:24 -   Learning rate: 0.1
+2025-02-16 00:39:49 - Epoch 3 completed:
+2025-02-16 00:39:49 -   Total Loss: 4392.3455
+2025-02-16 00:39:49 -   Average batch loss: 0.4941
+2025-02-16 00:39:49 -   Number of batches: 8890
+2025-02-16 00:39:49 -   Learning rate: 0.1
+2025-02-16 00:40:10 - Epoch 4 completed:
+2025-02-16 00:40:10 -   Total Loss: 4224.8142
+2025-02-16 00:40:10 -   Average batch loss: 0.4752
+2025-02-16 00:40:10 -   Number of batches: 8890
+2025-02-16 00:40:10 -   Learning rate: 0.1
+2025-02-16 00:40:16 - Epoch 5 completed:
+2025-02-16 00:40:16 -   Total Loss: 4090.7184
+2025-02-16 00:40:16 -   Average batch loss: 0.4601
+2025-02-16 00:40:16 -   Number of batches: 8890
+2025-02-16 00:40:16 -   Learning rate: 0.1
+2025-02-16 00:40:23 - Epoch 6 completed:
+2025-02-16 00:40:23 -   Total Loss: 3978.8194
+2025-02-16 00:40:23 -   Average batch loss: 0.4476
+2025-02-16 00:40:23 -   Number of batches: 8890
+2025-02-16 00:40:23 -   Learning rate: 0.1
+2025-02-16 00:40:54 - Epoch 7 completed:
+2025-02-16 00:40:54 -   Total Loss: 3882.7722
+2025-02-16 00:40:54 -   Average batch loss: 0.4368
+2025-02-16 00:40:54 -   Number of batches: 8890
+2025-02-16 00:40:54 -   Learning rate: 0.1
+2025-02-16 00:41:01 - Epoch 8 completed:
+2025-02-16 00:41:01 -   Total Loss: 3800.0543
+2025-02-16 00:41:01 -   Average batch loss: 0.4275
+2025-02-16 00:41:01 -   Number of batches: 8890
+2025-02-16 00:41:01 -   Learning rate: 0.1
+2025-02-16 00:41:28 - Epoch 9 completed:
+2025-02-16 00:41:28 -   Total Loss: 3728.8839
+2025-02-16 00:41:28 -   Average batch loss: 0.4194
+2025-02-16 00:41:28 -   Number of batches: 8890
+2025-02-16 00:41:28 -   Learning rate: 0.1
+2025-02-16 00:41:46 - Epoch 10 completed:
+2025-02-16 00:41:46 -   Total Loss: 3666.5981
+2025-02-16 00:41:46 -   Average batch loss: 0.4124
+2025-02-16 00:41:46 -   Number of batches: 8890
+2025-02-16 00:41:46 -   Learning rate: 0.1
+2025-02-16 00:41:53 - Epoch 11 completed:
+2025-02-16 00:41:53 -   Total Loss: 3612.1124
+2025-02-16 00:41:53 -   Average batch loss: 0.4063
+2025-02-16 00:41:53 -   Number of batches: 8890
+2025-02-16 00:41:53 -   Learning rate: 0.1
+2025-02-16 00:41:59 - Epoch 12 completed:
+2025-02-16 00:41:59 -   Total Loss: 3563.1287
+2025-02-16 00:41:59 -   Average batch loss: 0.4008
+2025-02-16 00:41:59 -   Number of batches: 8890
+2025-02-16 00:41:59 -   Learning rate: 0.1
+2025-02-16 00:42:40 - Epoch 13 completed:
+2025-02-16 00:42:40 -   Total Loss: 3519.2894
+2025-02-16 00:42:40 -   Average batch loss: 0.3959
+2025-02-16 00:42:40 -   Number of batches: 8890
+2025-02-16 00:42:40 -   Learning rate: 0.1
+2025-02-16 00:42:46 - Epoch 14 completed:
+2025-02-16 00:42:46 -   Total Loss: 3479.7209
+2025-02-16 00:42:46 -   Average batch loss: 0.3914
+2025-02-16 00:42:46 -   Number of batches: 8890
+2025-02-16 00:42:46 -   Learning rate: 0.1
+2025-02-16 00:42:53 - Epoch 15 completed:
+2025-02-16 00:42:53 -   Total Loss: 3444.5400
+2025-02-16 00:42:53 -   Average batch loss: 0.3875
+2025-02-16 00:42:53 -   Number of batches: 8890
+2025-02-16 00:42:53 -   Learning rate: 0.1
+2025-02-16 00:43:00 - Epoch 16 completed:
+2025-02-16 00:43:00 -   Total Loss: 3411.8263
+2025-02-16 00:43:00 -   Average batch loss: 0.3838
+2025-02-16 00:43:00 -   Number of batches: 8890
+2025-02-16 00:43:00 -   Learning rate: 0.1
+2025-02-16 00:43:06 - Epoch 17 completed:
+2025-02-16 00:43:06 -   Total Loss: 3384.2858
+2025-02-16 00:43:06 -   Average batch loss: 0.3807
+2025-02-16 00:43:06 -   Number of batches: 8890
+2025-02-16 00:43:06 -   Learning rate: 0.1
+2025-02-16 00:43:13 - Epoch 18 completed:
+2025-02-16 00:43:13 -   Total Loss: 3357.8504
+2025-02-16 00:43:13 -   Average batch loss: 0.3777
+2025-02-16 00:43:13 -   Number of batches: 8890
+2025-02-16 00:43:13 -   Learning rate: 0.1
+2025-02-16 00:43:20 - Epoch 19 completed:
+2025-02-16 00:43:20 -   Total Loss: 3333.9345
+2025-02-16 00:43:20 -   Average batch loss: 0.3750
+2025-02-16 00:43:20 -   Number of batches: 8890
+2025-02-16 00:43:20 -   Learning rate: 0.1
+2025-02-16 00:43:20 - 
+Training FFNN model...
+2025-02-16 00:43:20 - Starting training with 8890 total batches
+2025-02-16 00:44:22 - Epoch 0 completed:
+2025-02-16 00:44:22 -   Total Loss: 3847.5775
+2025-02-16 00:44:22 -   Average batch loss: 0.4328
+2025-02-16 00:44:22 -   Number of batches: 8890
+2025-02-16 00:44:22 -   Learning rate: 0.1
+2025-02-16 00:45:13 - Epoch 1 completed:
+2025-02-16 00:45:13 -   Total Loss: 3270.0667
+2025-02-16 00:45:13 -   Average batch loss: 0.3678
+2025-02-16 00:45:13 -   Number of batches: 8890
+2025-02-16 00:45:13 -   Learning rate: 0.1
+2025-02-16 00:45:22 - Epoch 2 completed:
+2025-02-16 00:45:22 -   Total Loss: 3155.3900
+2025-02-16 00:45:22 -   Average batch loss: 0.3549
+2025-02-16 00:45:22 -   Number of batches: 8890
+2025-02-16 00:45:22 -   Learning rate: 0.1
+2025-02-16 00:45:31 - Epoch 3 completed:
+2025-02-16 00:45:31 -   Total Loss: 3100.5689
+2025-02-16 00:45:31 -   Average batch loss: 0.3488
+2025-02-16 00:45:31 -   Number of batches: 8890
+2025-02-16 00:45:31 -   Learning rate: 0.1
+2025-02-16 00:47:10 - Epoch 4 completed:
+2025-02-16 00:47:10 -   Total Loss: 3066.4404
+2025-02-16 00:47:10 -   Average batch loss: 0.3449
+2025-02-16 00:47:10 -   Number of batches: 8890
+2025-02-16 00:47:10 -   Learning rate: 0.1
+2025-02-16 00:48:18 - Epoch 5 completed:
+2025-02-16 00:48:18 -   Total Loss: 3041.5639
+2025-02-16 00:48:18 -   Average batch loss: 0.3421
+2025-02-16 00:48:18 -   Number of batches: 8890
+2025-02-16 00:48:18 -   Learning rate: 0.1
+2025-02-16 00:48:31 - Epoch 6 completed:
+2025-02-16 00:48:31 -   Total Loss: 3022.4521
+2025-02-16 00:48:31 -   Average batch loss: 0.3400
+2025-02-16 00:48:31 -   Number of batches: 8890
+2025-02-16 00:48:31 -   Learning rate: 0.1
+2025-02-16 00:48:40 - Epoch 7 completed:
+2025-02-16 00:48:40 -   Total Loss: 3007.7043
+2025-02-16 00:48:40 -   Average batch loss: 0.3383
+2025-02-16 00:48:40 -   Number of batches: 8890
+2025-02-16 00:48:40 -   Learning rate: 0.1
+2025-02-16 00:48:51 - Epoch 8 completed:
+2025-02-16 00:48:51 -   Total Loss: 2993.2814
+2025-02-16 00:48:51 -   Average batch loss: 0.3367
+2025-02-16 00:48:51 -   Number of batches: 8890
+2025-02-16 00:48:51 -   Learning rate: 0.1
+2025-02-16 00:49:21 - Epoch 9 completed:
+2025-02-16 00:49:21 -   Total Loss: 2982.3344
+2025-02-16 00:49:21 -   Average batch loss: 0.3355
+2025-02-16 00:49:21 -   Number of batches: 8890
+2025-02-16 00:49:21 -   Learning rate: 0.1
+2025-02-16 00:49:50 - Epoch 10 completed:
+2025-02-16 00:49:50 -   Total Loss: 2972.5477
+2025-02-16 00:49:50 -   Average batch loss: 0.3344
+2025-02-16 00:49:50 -   Number of batches: 8890
+2025-02-16 00:49:50 -   Learning rate: 0.1
+2025-02-16 00:50:45 - Epoch 11 completed:
+2025-02-16 00:50:45 -   Total Loss: 2961.9872
+2025-02-16 00:50:45 -   Average batch loss: 0.3332
+2025-02-16 00:50:45 -   Number of batches: 8890
+2025-02-16 00:50:45 -   Learning rate: 0.1
+2025-02-16 00:50:55 - Epoch 12 completed:
+2025-02-16 00:50:55 -   Total Loss: 2953.9435
+2025-02-16 00:50:55 -   Average batch loss: 0.3323
+2025-02-16 00:50:55 -   Number of batches: 8890
+2025-02-16 00:50:55 -   Learning rate: 0.1
+2025-02-16 00:51:04 - Epoch 13 completed:
+2025-02-16 00:51:04 -   Total Loss: 2946.1286
+2025-02-16 00:51:04 -   Average batch loss: 0.3314
+2025-02-16 00:51:04 -   Number of batches: 8890
+2025-02-16 00:51:04 -   Learning rate: 0.1
+2025-02-16 00:52:03 - Epoch 14 completed:
+2025-02-16 00:52:03 -   Total Loss: 2937.5652
+2025-02-16 00:52:03 -   Average batch loss: 0.3304
+2025-02-16 00:52:03 -   Number of batches: 8890
+2025-02-16 00:52:03 -   Learning rate: 0.1
+2025-02-16 00:52:28 - Epoch 15 completed:
+2025-02-16 00:52:28 -   Total Loss: 2931.9398
+2025-02-16 00:52:28 -   Average batch loss: 0.3298
+2025-02-16 00:52:28 -   Number of batches: 8890
+2025-02-16 00:52:28 -   Learning rate: 0.1
+2025-02-16 00:52:57 - Epoch 16 completed:
+2025-02-16 00:52:57 -   Total Loss: 2925.9542
+2025-02-16 00:52:57 -   Average batch loss: 0.3291
+2025-02-16 00:52:57 -   Number of batches: 8890
+2025-02-16 00:52:57 -   Learning rate: 0.1
+2025-02-16 00:53:10 - Epoch 17 completed:
+2025-02-16 00:53:10 -   Total Loss: 2918.7922
+2025-02-16 00:53:10 -   Average batch loss: 0.3283
+2025-02-16 00:53:10 -   Number of batches: 8890
+2025-02-16 00:53:10 -   Learning rate: 0.1
+2025-02-16 00:54:09 - Epoch 18 completed:
+2025-02-16 00:54:09 -   Total Loss: 2911.8280
+2025-02-16 00:54:09 -   Average batch loss: 0.3275
+2025-02-16 00:54:09 -   Number of batches: 8890
+2025-02-16 00:54:09 -   Learning rate: 0.1
+2025-02-16 00:54:27 - Epoch 19 completed:
+2025-02-16 00:54:27 -   Total Loss: 2907.1560
+2025-02-16 00:54:27 -   Average batch loss: 0.3270
+2025-02-16 00:54:27 -   Number of batches: 8890
+2025-02-16 00:54:27 -   Learning rate: 0.1
+2025-02-16 00:54:27 - 
+Starting model evaluation...
+2025-02-16 00:54:27 - Loading from: test/positive
+2025-02-16 00:54:28 - Loading from: test/negative
+2025-02-16 00:54:28 - Loaded 3591 texts from test set
+2025-02-16 00:56:27 - Log file created at: results/word2vec.log
+2025-02-16 00:56:27 - Starting Word2Vec training process
+2025-02-16 00:56:27 - Loading training data...
+2025-02-16 00:56:27 - Loading from: train/positive
+2025-02-16 00:56:28 - Loading from: train/negative
+2025-02-16 00:56:28 - Loaded 2904 texts from train set
+2025-02-16 00:56:28 - Building vocabulary...
+2025-02-16 00:56:29 - Vocabulary size: 6262
+2025-02-16 00:56:29 - Generating training pairs...
+2025-02-16 00:56:45 - Generated 568932 training pairs
+2025-02-16 00:56:45 - 
+Training Logistic Regression model...
+2025-02-16 00:56:48 - Starting training with 8890 total batches
+2025-02-16 00:56:58 - Epoch 0 completed:
+2025-02-16 00:56:58 -   Total Loss: 5405.0449
+2025-02-16 00:56:58 -   Average batch loss: 0.6080
+2025-02-16 00:56:58 -   Number of batches: 8890
+2025-02-16 00:56:58 -   Learning rate: 0.1
+2025-02-16 00:57:34 - Epoch 1 completed:
+2025-02-16 00:57:34 -   Total Loss: 5015.3896
+2025-02-16 00:57:34 -   Average batch loss: 0.5642
+2025-02-16 00:57:34 -   Number of batches: 8890
+2025-02-16 00:57:34 -   Learning rate: 0.1
+2025-02-16 00:57:34 - 
+Training FFNN model...
+2025-02-16 00:57:34 - Starting training with 8890 total batches
+2025-02-16 00:58:01 - Epoch 0 completed:
+2025-02-16 00:58:01 -   Total Loss: 3882.5652
+2025-02-16 00:58:01 -   Average batch loss: 0.4367
+2025-02-16 00:58:01 -   Number of batches: 8890
+2025-02-16 00:58:01 -   Learning rate: 0.1
+2025-02-16 00:59:31 - Epoch 1 completed:
+2025-02-16 00:59:31 -   Total Loss: 3279.3080
+2025-02-16 00:59:31 -   Average batch loss: 0.3689
+2025-02-16 00:59:31 -   Number of batches: 8890
+2025-02-16 00:59:31 -   Learning rate: 0.1
+2025-02-16 00:59:31 - 
+Starting model evaluation...
+2025-02-16 00:59:31 - Loading from: test/positive
+2025-02-16 00:59:34 - Loading from: test/negative
+2025-02-16 00:59:35 - Loaded 3591 texts from test set
+2025-02-16 00:59:35 - 
+Evaluating LogiR model...
+2025-02-16 00:59:57 - Evaluation results saved to: results/logir_evaluation.txt
+2025-02-16 00:59:57 - 
+Evaluating FFNN model...
+2025-02-16 01:00:27 - Evaluation results saved to: results/ffnn_evaluation.txt
+2025-02-16 01:00:27 - 
+Comparing embeddings between models...
+2025-02-16 01:00:29 - Comprehensive evaluation report saved to: results/evaluation_report.txt
+2025-02-16 01:00:29 - 
+Generating loss charts...
+2025-02-16 01:00:29 - Loss charts saved to: results/loss_charts.png
+2025-02-16 01:01:38 - Log file created at: results/word2vec.log
+2025-02-16 01:01:38 - Starting Word2Vec training process
+2025-02-16 01:01:38 - Loading training data...
+2025-02-16 01:01:38 - Loading from: train/positive
+2025-02-16 01:01:38 - Loading from: train/negative
+2025-02-16 01:01:39 - Loaded 2904 texts from train set
+2025-02-16 01:01:39 - Building vocabulary...
+2025-02-16 01:01:39 - Vocabulary size: 6262
+2025-02-16 01:01:39 - Generating training pairs...
+2025-02-16 01:01:56 - Generated 568932 training pairs
+2025-02-16 01:01:56 - 
+Training Logistic Regression model...
+2025-02-16 01:01:56 - Starting training with 8890 total batches
+2025-02-16 01:02:37 - Epoch 0 completed:
+2025-02-16 01:02:37 -   Total Loss: 5274.1756
+2025-02-16 01:02:37 -   Average batch loss: 0.5933
+2025-02-16 01:02:37 -   Number of batches: 8890
+2025-02-16 01:02:37 -   Learning rate: 0.1
+2025-02-16 01:04:24 - Epoch 1 completed:
+2025-02-16 01:04:24 -   Total Loss: 4904.2791
+2025-02-16 01:04:24 -   Average batch loss: 0.5517
+2025-02-16 01:04:24 -   Number of batches: 8890
+2025-02-16 01:04:24 -   Learning rate: 0.1
+2025-02-16 01:04:24 - 
+Training FFNN model...
+2025-02-16 01:04:24 - Starting training with 8890 total batches
+2025-02-16 01:05:38 - Epoch 0 completed:
+2025-02-16 01:05:38 -   Total Loss: 3840.5231
+2025-02-16 01:05:38 -   Average batch loss: 0.4320
+2025-02-16 01:05:38 -   Number of batches: 8890
+2025-02-16 01:05:38 -   Learning rate: 0.1
+2025-02-16 01:05:49 - Epoch 1 completed:
+2025-02-16 01:05:49 -   Total Loss: 3281.8069
+2025-02-16 01:05:49 -   Average batch loss: 0.3692
+2025-02-16 01:05:49 -   Number of batches: 8890
+2025-02-16 01:05:49 -   Learning rate: 0.1
+2025-02-16 01:05:49 - 
+Starting model evaluation...
+2025-02-16 01:05:49 - Loading from: test/positive
+2025-02-16 01:05:50 - Loading from: test/negative
+2025-02-16 01:05:50 - Loaded 3591 texts from test set
+2025-02-16 01:05:50 - 
+Evaluating LogiR model...
+2025-02-16 01:06:14 - Evaluation results saved to: results/logir_evaluation.txt
+2025-02-16 01:06:14 - 
+Evaluating FFNN model...
+2025-02-16 01:06:38 - Evaluation results saved to: results/ffnn_evaluation.txt
+2025-02-16 01:06:38 - 
+Comparing embeddings between models...
+2025-02-16 01:06:40 - Comprehensive evaluation report saved to: results/evaluation_report.txt
+2025-02-16 01:06:40 - 
+Generating loss charts...
+2025-02-16 01:06:40 - Loss charts saved to: results/loss_charts.png
+2025-02-16 01:06:40 - 
+Generating visualizations...
+2025-02-16 01:06:40 - Attempting LogiR visualization...
+2025-02-16 01:06:40 - Starting visualization process...
+2025-02-16 01:06:41 - Visualization saved to: results/embeddings_visualization_Logit.png
+2025-02-16 01:06:41 - 
+Attempting FFNN visualization...
+2025-02-16 01:06:41 - Starting visualization process...
+2025-02-16 01:06:41 - Visualization saved to: results/embeddings_visualization_FFNN.png
+2025-02-16 01:06:41 - Training and evaluation process completed!
+2025-02-16 01:08:43 - Log file created at: results/word2vec.log
+2025-02-16 01:08:43 - Starting Word2Vec training process
+2025-02-16 01:08:43 - Loading training data...
+2025-02-16 01:08:43 - Loading from: train/positive
+2025-02-16 01:08:44 - Loading from: train/negative
+2025-02-16 01:08:45 - Loaded 2904 texts from train set
+2025-02-16 01:08:45 - Building vocabulary...
+2025-02-16 01:08:45 - Vocabulary size: 6262
+2025-02-16 01:08:45 - Generating training pairs...
+2025-02-16 01:09:02 - Generated 568932 training pairs
+2025-02-16 01:09:02 - 
+Training Logistic Regression model...
+2025-02-16 01:09:03 - Starting training with 17780 total batches
+2025-02-16 01:09:33 - Epoch 0 completed:
+2025-02-16 01:09:33 -   Total Loss: 10406.3938
+2025-02-16 01:09:33 -   Average batch loss: 0.5853
+2025-02-16 01:09:33 -   Number of batches: 17780
+2025-02-16 01:09:33 -   Learning rate: 0.1
+2025-02-16 01:09:44 - Epoch 1 completed:
+2025-02-16 01:09:44 -   Total Loss: 9130.5904
+2025-02-16 01:09:44 -   Average batch loss: 0.5135
+2025-02-16 01:09:44 -   Number of batches: 17780
+2025-02-16 01:09:44 -   Learning rate: 0.1
+2025-02-16 01:10:02 - Epoch 2 completed:
+2025-02-16 01:10:02 -   Total Loss: 8421.0180
+2025-02-16 01:10:02 -   Average batch loss: 0.4736
+2025-02-16 01:10:02 -   Number of batches: 17780
+2025-02-16 01:10:02 -   Learning rate: 0.1
+2025-02-16 01:11:27 - Epoch 3 completed:
+2025-02-16 01:11:27 -   Total Loss: 7956.3461
+2025-02-16 01:11:27 -   Average batch loss: 0.4475
+2025-02-16 01:11:27 -   Number of batches: 17780
+2025-02-16 01:11:27 -   Learning rate: 0.1
+2025-02-16 01:11:56 - Epoch 4 completed:
+2025-02-16 01:11:56 -   Total Loss: 7627.0126
+2025-02-16 01:11:56 -   Average batch loss: 0.4290
+2025-02-16 01:11:56 -   Number of batches: 17780
+2025-02-16 01:11:56 -   Learning rate: 0.1
+2025-02-16 01:12:26 - Epoch 5 completed:
+2025-02-16 01:12:26 -   Total Loss: 7374.9061
+2025-02-16 01:12:26 -   Average batch loss: 0.4148
+2025-02-16 01:12:26 -   Number of batches: 17780
+2025-02-16 01:12:26 -   Learning rate: 0.1
+2025-02-16 01:13:27 - Epoch 6 completed:
+2025-02-16 01:13:27 -   Total Loss: 7181.1352
+2025-02-16 01:13:27 -   Average batch loss: 0.4039
+2025-02-16 01:13:27 -   Number of batches: 17780
+2025-02-16 01:13:27 -   Learning rate: 0.1
+2025-02-16 01:13:45 - Epoch 7 completed:
+2025-02-16 01:13:45 -   Total Loss: 7023.2234
+2025-02-16 01:13:45 -   Average batch loss: 0.3950
+2025-02-16 01:13:45 -   Number of batches: 17780
+2025-02-16 01:13:45 -   Learning rate: 0.1
+2025-02-16 01:15:37 - Epoch 8 completed:
+2025-02-16 01:15:37 -   Total Loss: 6899.8070
+2025-02-16 01:15:37 -   Average batch loss: 0.3881
+2025-02-16 01:15:37 -   Number of batches: 17780
+2025-02-16 01:15:37 -   Learning rate: 0.1
+2025-02-16 01:16:51 - Epoch 9 completed:
+2025-02-16 01:16:51 -   Total Loss: 6794.3584
+2025-02-16 01:16:51 -   Average batch loss: 0.3821
+2025-02-16 01:16:51 -   Number of batches: 17780
+2025-02-16 01:16:51 -   Learning rate: 0.1
+2025-02-16 01:18:08 - Epoch 10 completed:
+2025-02-16 01:18:08 -   Total Loss: 6707.3062
+2025-02-16 01:18:08 -   Average batch loss: 0.3772
+2025-02-16 01:18:08 -   Number of batches: 17780
+2025-02-16 01:18:08 -   Learning rate: 0.1
+2025-02-16 01:18:35 - Epoch 11 completed:
+2025-02-16 01:18:35 -   Total Loss: 6629.3347
+2025-02-16 01:18:35 -   Average batch loss: 0.3729
+2025-02-16 01:18:35 -   Number of batches: 17780
+2025-02-16 01:18:35 -   Learning rate: 0.1
+2025-02-16 01:18:47 - Epoch 12 completed:
+2025-02-16 01:18:47 -   Total Loss: 6568.1045
+2025-02-16 01:18:47 -   Average batch loss: 0.3694
+2025-02-16 01:18:47 -   Number of batches: 17780
+2025-02-16 01:18:47 -   Learning rate: 0.1
+2025-02-16 01:19:03 - Epoch 13 completed:
+2025-02-16 01:19:03 -   Total Loss: 6509.3532
+2025-02-16 01:19:03 -   Average batch loss: 0.3661
+2025-02-16 01:19:03 -   Number of batches: 17780
+2025-02-16 01:19:03 -   Learning rate: 0.1
+2025-02-16 01:19:15 - Epoch 14 completed:
+2025-02-16 01:19:15 -   Total Loss: 6463.4616
+2025-02-16 01:19:15 -   Average batch loss: 0.3635
+2025-02-16 01:19:15 -   Number of batches: 17780
+2025-02-16 01:19:15 -   Learning rate: 0.1
+2025-02-16 01:20:41 - Epoch 15 completed:
+2025-02-16 01:20:41 -   Total Loss: 6421.1740
+2025-02-16 01:20:41 -   Average batch loss: 0.3611
+2025-02-16 01:20:41 -   Number of batches: 17780
+2025-02-16 01:20:41 -   Learning rate: 0.1
+2025-02-16 01:21:50 - Epoch 16 completed:
+2025-02-16 01:21:50 -   Total Loss: 6381.6439
+2025-02-16 01:21:50 -   Average batch loss: 0.3589
+2025-02-16 01:21:50 -   Number of batches: 17780
+2025-02-16 01:21:50 -   Learning rate: 0.1
+2025-02-16 01:22:00 - Epoch 17 completed:
+2025-02-16 01:22:00 -   Total Loss: 6351.4054
+2025-02-16 01:22:00 -   Average batch loss: 0.3572
+2025-02-16 01:22:00 -   Number of batches: 17780
+2025-02-16 01:22:00 -   Learning rate: 0.1
+2025-02-16 01:22:45 - Epoch 18 completed:
+2025-02-16 01:22:45 -   Total Loss: 6319.8669
+2025-02-16 01:22:45 -   Average batch loss: 0.3554
+2025-02-16 01:22:45 -   Number of batches: 17780
+2025-02-16 01:22:45 -   Learning rate: 0.1
+2025-02-16 01:23:08 - Epoch 19 completed:
+2025-02-16 01:23:08 -   Total Loss: 6291.3770
+2025-02-16 01:23:08 -   Average batch loss: 0.3538
+2025-02-16 01:23:08 -   Number of batches: 17780
+2025-02-16 01:23:08 -   Learning rate: 0.1
+2025-02-16 01:23:08 - 
+Training FFNN model...
+2025-02-16 01:23:08 - Starting training with 17780 total batches
+2025-02-16 01:24:21 - Epoch 0 completed:
+2025-02-16 01:24:21 -   Total Loss: 7375.5382
+2025-02-16 01:24:21 -   Average batch loss: 0.4148
+2025-02-16 01:24:21 -   Number of batches: 17780
+2025-02-16 01:24:21 -   Learning rate: 0.1
+2025-02-16 01:25:45 - Epoch 1 completed:
+2025-02-16 01:25:45 -   Total Loss: 6422.0516
+2025-02-16 01:25:45 -   Average batch loss: 0.3612
+2025-02-16 01:25:45 -   Number of batches: 17780
+2025-02-16 01:25:45 -   Learning rate: 0.1
+2025-02-16 01:26:12 - Epoch 2 completed:
+2025-02-16 01:26:12 -   Total Loss: 6248.1849
+2025-02-16 01:26:12 -   Average batch loss: 0.3514
+2025-02-16 01:26:12 -   Number of batches: 17780
+2025-02-16 01:26:12 -   Learning rate: 0.1
+2025-02-16 01:27:21 - Epoch 3 completed:
+2025-02-16 01:27:21 -   Total Loss: 6160.3357
+2025-02-16 01:27:21 -   Average batch loss: 0.3465
+2025-02-16 01:27:21 -   Number of batches: 17780
+2025-02-16 01:27:21 -   Learning rate: 0.1
+2025-02-16 01:28:33 - Epoch 4 completed:
+2025-02-16 01:28:33 -   Total Loss: 6108.1722
+2025-02-16 01:28:33 -   Average batch loss: 0.3435
+2025-02-16 01:28:33 -   Number of batches: 17780
+2025-02-16 01:28:33 -   Learning rate: 0.1
+2025-02-16 01:29:10 - Epoch 5 completed:
+2025-02-16 01:29:10 -   Total Loss: 6063.9389
+2025-02-16 01:29:10 -   Average batch loss: 0.3411
+2025-02-16 01:29:10 -   Number of batches: 17780
+2025-02-16 01:29:10 -   Learning rate: 0.1
+2025-02-16 01:29:26 - Epoch 6 completed:
+2025-02-16 01:29:26 -   Total Loss: 6031.2488
+2025-02-16 01:29:26 -   Average batch loss: 0.3392
+2025-02-16 01:29:26 -   Number of batches: 17780
+2025-02-16 01:29:26 -   Learning rate: 0.1
+2025-02-16 01:30:16 - Epoch 7 completed:
+2025-02-16 01:30:16 -   Total Loss: 6005.7354
+2025-02-16 01:30:16 -   Average batch loss: 0.3378
+2025-02-16 01:30:16 -   Number of batches: 17780
+2025-02-16 01:30:16 -   Learning rate: 0.1
+2025-02-16 01:30:30 - Epoch 8 completed:
+2025-02-16 01:30:30 -   Total Loss: 5981.1240
+2025-02-16 01:30:30 -   Average batch loss: 0.3364
+2025-02-16 01:30:30 -   Number of batches: 17780
+2025-02-16 01:30:30 -   Learning rate: 0.1
+2025-02-16 01:30:55 - Epoch 9 completed:
+2025-02-16 01:30:55 -   Total Loss: 5960.4111
+2025-02-16 01:30:55 -   Average batch loss: 0.3352
+2025-02-16 01:30:55 -   Number of batches: 17780
+2025-02-16 01:30:55 -   Learning rate: 0.1
+2025-02-16 01:31:10 - Epoch 10 completed:
+2025-02-16 01:31:10 -   Total Loss: 5940.7312
+2025-02-16 01:31:10 -   Average batch loss: 0.3341
+2025-02-16 01:31:10 -   Number of batches: 17780
+2025-02-16 01:31:10 -   Learning rate: 0.1
+2025-02-16 01:32:19 - Epoch 11 completed:
+2025-02-16 01:32:19 -   Total Loss: 5924.8810
+2025-02-16 01:32:19 -   Average batch loss: 0.3332
+2025-02-16 01:32:19 -   Number of batches: 17780
+2025-02-16 01:32:19 -   Learning rate: 0.1
+2025-02-16 01:34:25 - Epoch 12 completed:
+2025-02-16 01:34:25 -   Total Loss: 5907.2667
+2025-02-16 01:34:25 -   Average batch loss: 0.3322
+2025-02-16 01:34:25 -   Number of batches: 17780
+2025-02-16 01:34:25 -   Learning rate: 0.1
+2025-02-16 01:35:16 - Epoch 13 completed:
+2025-02-16 01:35:16 -   Total Loss: 5890.1964
+2025-02-16 01:35:16 -   Average batch loss: 0.3313
+2025-02-16 01:35:16 -   Number of batches: 17780
+2025-02-16 01:35:16 -   Learning rate: 0.1
+2025-02-16 01:36:24 - Epoch 14 completed:
+2025-02-16 01:36:24 -   Total Loss: 5870.7383
+2025-02-16 01:36:24 -   Average batch loss: 0.3302
+2025-02-16 01:36:24 -   Number of batches: 17780
+2025-02-16 01:36:24 -   Learning rate: 0.1
+2025-02-16 01:38:02 - Epoch 15 completed:
+2025-02-16 01:38:02 -   Total Loss: 5861.0307
+2025-02-16 01:38:02 -   Average batch loss: 0.3296
+2025-02-16 01:38:02 -   Number of batches: 17780
+2025-02-16 01:38:02 -   Learning rate: 0.1
+2025-02-16 01:38:47 - Epoch 16 completed:
+2025-02-16 01:38:47 -   Total Loss: 5844.2465
+2025-02-16 01:38:47 -   Average batch loss: 0.3287
+2025-02-16 01:38:47 -   Number of batches: 17780
+2025-02-16 01:38:47 -   Learning rate: 0.1
+2025-02-16 01:39:03 - Epoch 17 completed:
+2025-02-16 01:39:03 -   Total Loss: 5830.1188
+2025-02-16 01:39:03 -   Average batch loss: 0.3279
+2025-02-16 01:39:03 -   Number of batches: 17780
+2025-02-16 01:39:03 -   Learning rate: 0.1
+2025-02-16 01:39:28 - Epoch 18 completed:
+2025-02-16 01:39:28 -   Total Loss: 5814.9048
+2025-02-16 01:39:28 -   Average batch loss: 0.3270
+2025-02-16 01:39:28 -   Number of batches: 17780
+2025-02-16 01:39:28 -   Learning rate: 0.1
+2025-02-16 01:41:10 - Epoch 19 completed:
+2025-02-16 01:41:10 -   Total Loss: 5800.2994
+2025-02-16 01:41:10 -   Average batch loss: 0.3262
+2025-02-16 01:41:10 -   Number of batches: 17780
+2025-02-16 01:41:10 -   Learning rate: 0.1
+2025-02-16 01:41:10 - 
+Starting model evaluation...
+2025-02-16 01:41:10 - Loading from: test/positive
+2025-02-16 01:41:10 - Loading from: test/negative
+2025-02-16 01:41:11 - Loaded 3591 texts from test set
+2025-02-16 01:41:11 - 
+Evaluating LogiR model...
+2025-02-16 01:41:34 - Evaluation results saved to: results/logir_evaluation.txt
+2025-02-16 01:41:34 - 
+Evaluating FFNN model...
+2025-02-16 01:42:11 - Evaluation results saved to: results/ffnn_evaluation.txt
+2025-02-16 01:42:11 - 
+Comparing embeddings between models...
+2025-02-16 01:42:13 - Comprehensive evaluation report saved to: results/evaluation_report.txt
+2025-02-16 01:42:13 - 
+Generating loss charts...
+2025-02-16 01:42:13 - Loss charts saved to: results/loss_charts.png
+2025-02-16 01:42:13 - 
+Generating visualizations...
+2025-02-16 01:42:13 - Attempting LogiR visualization...
+2025-02-16 01:42:13 - Starting visualization process...
+2025-02-16 01:42:29 - Visualization saved to: results/embeddings_visualization_Logit.png
+2025-02-16 01:42:29 - 
+Attempting FFNN visualization...
+2025-02-16 01:42:29 - Starting visualization process...
+2025-02-16 01:42:33 - Visualization saved to: results/embeddings_visualization_FFNN.png
+2025-02-16 01:42:33 - Training and evaluation process completed!

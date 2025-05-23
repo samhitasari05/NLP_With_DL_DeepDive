@@ -1,0 +1,10 @@
+FFNN Model Evaluation Results
+==================================================
+
+Number of test pairs: 625338
+Positive pairs: 208446
+Negative pairs: 416892
+
+Average positive similarity: 0.0054 (±0.1554)
+Average negative similarity: -0.0005 (±0.1417)
+Discrimination (pos - neg): 0.0059

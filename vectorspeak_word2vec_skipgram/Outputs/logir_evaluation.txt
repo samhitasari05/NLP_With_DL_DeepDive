@@ -1,0 +1,10 @@
+LogiR Model Evaluation Results
+==================================================
+
+Number of test pairs: 625338
+Positive pairs: 208446
+Negative pairs: 416892
+
+Average positive similarity: 0.0046 (±0.1579)
+Average negative similarity: 0.0001 (±0.1414)
+Discrimination (pos - neg): 0.0045

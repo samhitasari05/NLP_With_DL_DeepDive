@@ -1,72 +1,63 @@
 # 💬 Sentiment Classification using FFNNs: NumPy vs PyTorch
 
-This project compares two Feed-Forward Neural Network (FFNN) models for classifying airline tweets into **positive** or **negative** sentiment:
-- A custom FFNN built from **scratch using NumPy**
-- A modern FFNN built using **PyTorch**
+This project compares two Feedforward Neural Networks (FFNNs) for classifying airline tweets into **positive** or **negative** sentiment:
+- One implemented **from scratch using NumPy**
+- Another built using **PyTorch’s neural network module**
 
-🧪 Completed for AIT 726 – NLP with Deep Learning at George Mason University.
-
----
-
-## 🧠 Project Overview
-
-This project explores two distinct approaches to sentiment classification using deep learning:
-- Both models process raw airline tweets into TF-IDF vectors
-- Preprocessing includes optional stemming using NLTK's SnowballStemmer
-- Evaluated both **with** and **without** stemming
+🧪 Developed as part of AIT 726 – NLP with Deep Learning at George Mason University.
 
 ---
 
-## ✈️ Dataset Summary
+## ✈️ Project Overview
 
-- 4183 tweets for training  
-- 4182 tweets for testing  
-- Tweets are labeled as `positive` or `negative`
-- Dataset split across folders (train/test, pos/neg)
+The goal is to build binary classifiers to detect sentiment polarity in tweets using TF-IDF vector representations. We experiment with:
+- Preprocessing: with and without stemming
+- Model architecture: same structure, different frameworks
+- Evaluation: accuracy and confusion matrices
 
 ---
 
-## 🧪 Experiments Conducted
+## 🧠 Models Implemented
 
-| Model     | Stemming | Accuracy | Confusion Matrix         |
-|-----------|----------|----------|--------------------------|
-| NumPy     | ✅ Yes    | 71.74%   | [[3000, 0], [1182, 0]]   |
-| NumPy     | ❌ No     | 71.74%   | [[3000, 0], [1182, 0]]   |
-| PyTorch   | ✅ Yes    | 75.49%   | [[3000, 0], [1025, 157]] |
-| PyTorch   | ❌ No     | **76.71%** | [[2999, 1], [973, 209]]  |
+| Model Type     | Preprocessing      | Optimizer | Accuracy | Notes |
+|----------------|--------------------|-----------|----------|-------|
+| NumPy FFNN     | With Stemming      | SGD       | 71.74%   | Predicts only majority class |
+| NumPy FFNN     | Without Stemming   | SGD       | 71.74%   | No gain despite vocab change |
+| PyTorch FFNN   | With Stemming      | Adam      | 75.49%   | Balanced but underperforms |
+| PyTorch FFNN   | Without Stemming   | Adam      | **76.71%** | Best results across all |
 
-➡️ **PyTorch without stemming performed best**, correctly predicting over 200 positive tweets and showing balanced generalization.
+➡️ PyTorch models were more effective at handling positive sentiment examples.
 
 ---
 
 ## 📉 Training Loss Curves
 
-![Training Loss](loss_curves.png)
+![Training Loss Curves](Outputs/loss_curves.png)
 
-- **NumPy models** converged with slightly lower loss but failed to generalize
-- **PyTorch models** demonstrated more adaptive training (Adam optimizer)
-
----
-
-## ⚙️ Model Configurations
-
-| Parameter       | Value         |
-|-----------------|---------------|
-| Hidden Units    | 20            |
-| Epochs          | 50            |
-| Batch Size      | 32            |
-| Optimizer       | SGD (NumPy), Adam (PyTorch) |
-| Loss Function   | Mean Squared Error (MSE) |
-| Activation      | Sigmoid (NumPy), ReLU+Sigmoid (PyTorch) |
+Left: NumPy FFNN — Right: PyTorch FFNN  
+Both models show consistent loss reduction, with PyTorch converging faster.
 
 ---
 
-## 🔍 Key Learnings
+## 📊 Dataset Summary
 
-- **PyTorch outperformed NumPy** due to better optimizers, stability, and tensor operations
-- **Stemming reduced vocabulary** size (by ~16%) but also slightly hurt performance
-- **NumPy model learned to predict majority class** only (negative), failing on positive sentiment
-- **Confusion matrix analysis revealed true model effectiveness**, not just raw accuracy
+- Airline sentiment tweets
+- Training: 4183 samples  
+- Testing: 4182 samples  
+- Classes: `positive` or `negative`
+
+---
+
+## ⚙️ Configuration & Hyperparameters
+
+| Parameter       | Value                     |
+|-----------------|---------------------------|
+| Hidden Units    | 20                        |
+| Epochs          | 50                        |
+| Batch Size      | 32                        |
+| Loss Function   | MSE                       |
+| Optimizers      | SGD (NumPy), Adam (PyTorch) |
+| Preprocessing   | With/Without stemming     |
 
 ---
 
@@ -74,20 +65,22 @@ This project explores two distinct approaches to sentiment classification using 
 
 | File | Description |
 |------|-------------|
-| `Assignment_2_v2_0.ipynb` | Full implementation notebook |
-| `Airline Tweet Sentiment Classification Report.docx` | Final report |
-| `results_comparison.txt` | Accuracy and confusion matrix |
-| `model_analysis.txt` | Detailed model comparison and evaluation |
-| `ffnn_sentiment_classification_20250228_221701.log` | Experiment logs |
-| `loss_curves.png` | Training loss plot |
+| `Assignment_2_v2_0.ipynb` | Final Jupyter Notebook |
+| `Airline Tweet Sentiment Classification Report.docx` | Formal write-up of methodology and results |
+| `Outputs/loss_curves.png` | Training loss comparison (NumPy vs PyTorch) |
+| `Outputs/results_comparison.txt` | Confusion matrices and accuracy |
+| `Outputs/model_analysis.txt` | Summary and interpretation of model differences |
+| `Outputs/ffnn_sentiment_classification_20250228_221701.log` | Full experiment log (optional) |
 
 ---
 
-## 📚 Technologies Used
+## 💻 Technologies Used
 
 ```bash
+Python
 NumPy
 PyTorch
 NLTK
 Matplotlib
 
+pip install numpy torch nltk matplotlib

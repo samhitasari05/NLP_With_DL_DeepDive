@@ -63,7 +63,7 @@ Both models show consistent loss reduction, with PyTorch converging faster.
 
 | File | Description |
 |------|-------------|
-| `Assignment_2_v2_0.ipynb` | Final Jupyter Notebook |
+| `FFNN.ipynb` | Final Jupyter Notebook |
 | `Airline Tweet Sentiment Classification Report.docx` | Formal write-up of methodology and results |
 | `Outputs/loss_curves.png` | Training loss comparison (NumPy vs PyTorch) |
 | `Outputs/results_comparison.txt` | Confusion matrices and accuracy |

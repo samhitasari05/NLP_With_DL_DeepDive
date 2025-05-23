@@ -57,17 +57,16 @@ dataset/
 ➡️ **FFNN outperforms** in both semantic grouping and negative contrastive learning.
 
 ---
-
 ## 🖼️ Visualizations
 
 ### 📉 Training Loss Comparison
-![Loss Chart](loss_charts.png)
+![Loss Curve](Outputs/loss_charts.png)
 
 ### 🔠 Embedding Space (Logistic Regression)
-![Logistic Embeddings](embeddings_visualization_Logit.png)
+![LogiR Embeddings](Outputs/embeddings_visualization_Logit.png)
 
 ### 🧠 Embedding Space (FFNN)
-![FFNN Embeddings](embeddings_visualization_FFNN.png)
+![FFNN Embeddings](Outputs/embeddings_visualization_FFNN.png)
 
 ---
 

@@ -75,8 +75,7 @@ Every model had its own learning journey. Here's a peek into their progress:
 
 | File | Description |
 |------|-------------|
-| `Programming Assignment 3.ipynb` | Full implementation of 7 models |
-| `AIT 726 Programming Assignment 3.pdf` | Original assignment brief |
+| `NER with RNNs.py` | Full implementation of 7 models |
 | `Outputs/*.png` | Loss plots for all models |
 | `README.md` | This beautiful story you're reading now ✨ |
 

@@ -1,6 +1,6 @@
 # 🧠 Word2Vec Skip-Gram: Custom Embeddings with Positive & Negative Sampling in PyTorch
 
-This project presents a **custom implementation of the Word2Vec Skip-Gram model** using both **positive and negative sampling** from scratch in **PyTorch**. Developed for the AIT 726 – *NLP with Deep Learning* course at **George Mason University**, the objective was to build meaningful word embeddings and compare the semantic capture capabilities of different neural architectures.
+This project presents a **custom implementation of the Word2Vec Skip-Gram model** using both **positive and negative sampling** from scratch in **PyTorch**. The objective was to build meaningful word embeddings and compare the semantic capture capabilities of different neural architectures.
 
 ---
 

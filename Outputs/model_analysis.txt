@@ -1,0 +1,42 @@
+==================================================
+FFNN Sentiment Classification - Analysis Report
+==================================================
+
+1. Implementation Comparison
+------------------------------
+
+NumPy Implementation:
+- Implemented from scratch using only NumPy
+- Uses sigmoid activation for both layers
+- Custom implementation of forward and backward passes
+- Mini-batch gradient descent with MSE loss
+
+PyTorch Implementation:
+- Leverages PyTorch's neural network modules
+- Uses ReLU activation for hidden layer and sigmoid for output
+- Uses PyTorch's automatic differentiation
+- Adam optimizer with MSE loss
+
+2. Performance Analysis
+------------------------------
+
+The PyTorch implementation generally performs better due to:
+- More advanced optimizer (Adam vs. SGD)
+- ReLU activation which helps address vanishing gradient problem
+- PyTorch's optimized operations
+
+3. Stemming Impact
+------------------------------
+
+Impact of stemming on vocabulary size and model performance:
+- Stemming reduces vocabulary size by grouping related words
+- This can improve generalization by reducing feature dimensionality
+- However, it may also lose some semantic distinctions
+
+4. Conclusion
+------------------------------
+
+Both implementations demonstrate the ability of FFNNs to perform sentiment classification.
+The PyTorch model with ReLU activation provides better performance.
+Stemming affects both vocabulary size and model performance,
+with the optimal choice depending on the specific dataset characteristics.

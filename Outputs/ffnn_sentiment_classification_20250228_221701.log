@@ -1,0 +1,129 @@
+2025-02-28 22:17:01,358 - __main__ - INFO - Starting Airline Tweets Sentiment Classification
+2025-02-28 22:17:01,980 - __main__ - INFO - All paths exist. Path configuration complete.
+2025-02-28 22:17:09,461 - __main__ - INFO - Starting experiments
+2025-02-28 22:17:09,464 - __main__ - INFO - ==================================================
+2025-02-28 22:17:09,466 - __main__ - INFO - Starting experiment WITH stemming
+2025-02-28 22:17:09,468 - __main__ - INFO - Parameters: epochs=50, batch_size=32, hidden_size=20
+2025-02-28 22:17:09,469 - __main__ - INFO - ==================================================
+2025-02-28 22:17:09,471 - __main__ - INFO - Loading positive tweets from /content/drive/MyDrive/tweet/train/positive
+2025-02-28 22:17:28,856 - __main__ - INFO - Loading negative tweets from /content/drive/MyDrive/tweet/train/negative
+2025-02-28 22:18:46,268 - __main__ - INFO - Loaded 4183 tweets in total
+2025-02-28 22:18:46,271 - __main__ - INFO - Loading positive tweets from /content/drive/MyDrive/tweet/test/positive
+2025-02-28 22:19:05,970 - __main__ - INFO - Loading negative tweets from /content/drive/MyDrive/tweet/test/negative
+2025-02-28 22:20:09,260 - __main__ - INFO - Loaded 4182 tweets in total
+2025-02-28 22:20:09,266 - __main__ - INFO - Preprocessing training tweets (stemming=True)
+2025-02-28 22:20:11,253 - __main__ - INFO - Preprocessing testing tweets (stemming=True)
+2025-02-28 22:20:13,033 - __main__ - INFO - Creating vocabulary from training data
+2025-02-28 22:20:13,048 - __main__ - INFO - Vocabulary created with 2581 unique words
+2025-02-28 22:20:13,050 - __main__ - INFO - Computing document frequencies
+2025-02-28 22:20:13,066 - __main__ - INFO - Document frequencies computed
+2025-02-28 22:20:13,068 - __main__ - INFO - Computing TF-IDF vectors
+2025-02-28 22:20:13,212 - __main__ - INFO - TF-IDF vectors computed: (4183, 2581)
+2025-02-28 22:20:13,214 - __main__ - INFO - Computing TF-IDF vectors
+2025-02-28 22:20:13,503 - __main__ - INFO - TF-IDF vectors computed: (4182, 2581)
+2025-02-28 22:20:13,506 - __main__ - INFO - Data prepared for model (stemming=True):
+2025-02-28 22:20:13,510 - __main__ - INFO -   X_train: (4183, 2581)
+2025-02-28 22:20:13,512 - __main__ - INFO -   y_train: (4183,)
+2025-02-28 22:20:13,513 - __main__ - INFO -   X_test: (4182, 2581)
+2025-02-28 22:20:13,515 - __main__ - INFO -   y_test: (4182,)
+2025-02-28 22:20:13,521 - __main__ - INFO - ----------------------------------------
+2025-02-28 22:20:13,522 - __main__ - INFO - Training FFNN from scratch (NumPy)
+2025-02-28 22:20:13,524 - __main__ - INFO - ----------------------------------------
+2025-02-28 22:20:13,528 - __main__ - INFO - FFNN Numpy implimentation initialized with architecture: 2581-20-1
+2025-02-28 22:20:13,746 - __main__ - INFO - Epoch 1/50 - Loss: 0.170445
+2025-02-28 22:20:15,374 - __main__ - INFO - Epoch 11/50 - Loss: 0.149001
+2025-02-28 22:20:17,009 - __main__ - INFO - Epoch 21/50 - Loss: 0.133647
+2025-02-28 22:20:18,597 - __main__ - INFO - Epoch 31/50 - Loss: 0.123108
+2025-02-28 22:20:20,826 - __main__ - INFO - Epoch 41/50 - Loss: 0.116015
+2025-02-28 22:20:24,358 - __main__ - INFO - Epoch 50/50 - Loss: 0.111672
+2025-02-28 22:20:24,411 - __main__ - INFO - Model evaluation - Accuracy: 0.7174
+2025-02-28 22:20:24,416 - __main__ - INFO - Confusion Matrix:
+[[3000    0]
+ [1182    0]]
+2025-02-28 22:20:24,420 - __main__ - INFO - ----------------------------------------
+2025-02-28 22:20:24,425 - __main__ - INFO - Training FFNN with PyTorch
+2025-02-28 22:20:24,430 - __main__ - INFO - ----------------------------------------
+2025-02-28 22:20:24,438 - __main__ - INFO - PyTorch trainer initialized with cpu device and learning rate 0.0001
+2025-02-28 22:20:24,839 - __main__ - INFO - Epoch 1/50 - Loss: 0.212233
+2025-02-28 22:20:27,168 - __main__ - INFO - Epoch 11/50 - Loss: 0.196395
+2025-02-28 22:20:29,536 - __main__ - INFO - Epoch 21/50 - Loss: 0.188518
+2025-02-28 22:20:31,886 - __main__ - INFO - Epoch 31/50 - Loss: 0.176660
+2025-02-28 22:20:34,203 - __main__ - INFO - Epoch 41/50 - Loss: 0.160572
+2025-02-28 22:20:37,098 - __main__ - INFO - Epoch 50/50 - Loss: 0.143483
+2025-02-28 22:20:37,190 - __main__ - INFO - PyTorch model evaluation - Accuracy: 0.7549
+2025-02-28 22:20:37,196 - __main__ - INFO - Confusion Matrix:
+[[3000    0]
+ [1025  157]]
+2025-02-28 22:20:37,201 - __main__ - INFO - ==================================================
+2025-02-28 22:20:37,203 - __main__ - INFO - Experiment WITH stemming - Results Summary
+2025-02-28 22:20:37,204 - __main__ - INFO - ==================================================
+2025-02-28 22:20:37,209 - __main__ - INFO - FFNN from scratch accuracy: 0.7174
+2025-02-28 22:20:37,211 - __main__ - INFO - PyTorch FFNN accuracy: 0.7549
+2025-02-28 22:20:37,212 - __main__ - INFO - Total time: 207.74 seconds
+2025-02-28 22:20:37,274 - __main__ - INFO - ==================================================
+2025-02-28 22:20:37,275 - __main__ - INFO - Starting experiment WITHOUT stemming
+2025-02-28 22:20:37,277 - __main__ - INFO - Parameters: epochs=50, batch_size=32, hidden_size=20
+2025-02-28 22:20:37,280 - __main__ - INFO - ==================================================
+2025-02-28 22:20:37,282 - __main__ - INFO - Loading positive tweets from /content/drive/MyDrive/tweet/train/positive
+2025-02-28 22:20:56,661 - __main__ - INFO - Loading negative tweets from /content/drive/MyDrive/tweet/train/negative
+2025-02-28 22:22:01,860 - __main__ - INFO - Loaded 4183 tweets in total
+2025-02-28 22:22:01,864 - __main__ - INFO - Loading positive tweets from /content/drive/MyDrive/tweet/test/positive
+2025-02-28 22:22:19,635 - __main__ - INFO - Loading negative tweets from /content/drive/MyDrive/tweet/test/negative
+2025-02-28 22:23:31,556 - __main__ - INFO - Loaded 4182 tweets in total
+2025-02-28 22:23:31,562 - __main__ - INFO - Preprocessing training tweets (stemming=False)
+2025-02-28 22:23:32,890 - __main__ - INFO - Preprocessing testing tweets (stemming=False)
+2025-02-28 22:23:34,155 - __main__ - INFO - Creating vocabulary from training data
+2025-02-28 22:23:34,172 - __main__ - INFO - Vocabulary created with 3096 unique words
+2025-02-28 22:23:34,174 - __main__ - INFO - Computing document frequencies
+2025-02-28 22:23:34,189 - __main__ - INFO - Document frequencies computed
+2025-02-28 22:23:34,192 - __main__ - INFO - Computing TF-IDF vectors
+2025-02-28 22:23:34,351 - __main__ - INFO - TF-IDF vectors computed: (4183, 3096)
+2025-02-28 22:23:34,353 - __main__ - INFO - Computing TF-IDF vectors
+2025-02-28 22:23:34,522 - __main__ - INFO - TF-IDF vectors computed: (4182, 3096)
+2025-02-28 22:23:34,524 - __main__ - INFO - Data prepared for model (stemming=False):
+2025-02-28 22:23:34,526 - __main__ - INFO -   X_train: (4183, 3096)
+2025-02-28 22:23:34,527 - __main__ - INFO -   y_train: (4183,)
+2025-02-28 22:23:34,529 - __main__ - INFO -   X_test: (4182, 3096)
+2025-02-28 22:23:34,531 - __main__ - INFO -   y_test: (4182,)
+2025-02-28 22:23:34,533 - __main__ - INFO - ----------------------------------------
+2025-02-28 22:23:34,535 - __main__ - INFO - Training FFNN from scratch (NumPy)
+2025-02-28 22:23:34,541 - __main__ - INFO - ----------------------------------------
+2025-02-28 22:23:34,546 - __main__ - INFO - FFNN Numpy implimentation initialized with architecture: 3096-20-1
+2025-02-28 22:23:34,728 - __main__ - INFO - Epoch 1/50 - Loss: 0.130680
+2025-02-28 22:23:36,620 - __main__ - INFO - Epoch 11/50 - Loss: 0.121073
+2025-02-28 22:23:38,492 - __main__ - INFO - Epoch 21/50 - Loss: 0.114638
+2025-02-28 22:23:40,374 - __main__ - INFO - Epoch 31/50 - Loss: 0.110349
+2025-02-28 22:23:42,919 - __main__ - INFO - Epoch 41/50 - Loss: 0.107483
+2025-02-28 22:23:46,527 - __main__ - INFO - Epoch 50/50 - Loss: 0.105714
+2025-02-28 22:23:46,587 - __main__ - INFO - Model evaluation - Accuracy: 0.7174
+2025-02-28 22:23:46,595 - __main__ - INFO - Confusion Matrix:
+[[3000    0]
+ [1182    0]]
+2025-02-28 22:23:46,601 - __main__ - INFO - ----------------------------------------
+2025-02-28 22:23:46,607 - __main__ - INFO - Training FFNN with PyTorch
+2025-02-28 22:23:46,612 - __main__ - INFO - ----------------------------------------
+2025-02-28 22:23:46,619 - __main__ - INFO - PyTorch trainer initialized with cpu device and learning rate 0.0001
+2025-02-28 22:23:46,979 - __main__ - INFO - Epoch 1/50 - Loss: 0.250208
+2025-02-28 22:23:49,397 - __main__ - INFO - Epoch 11/50 - Loss: 0.196240
+2025-02-28 22:23:51,783 - __main__ - INFO - Epoch 21/50 - Loss: 0.187899
+2025-02-28 22:23:54,186 - __main__ - INFO - Epoch 31/50 - Loss: 0.175846
+2025-02-28 22:23:56,955 - __main__ - INFO - Epoch 41/50 - Loss: 0.157707
+2025-02-28 22:24:00,111 - __main__ - INFO - Epoch 50/50 - Loss: 0.138478
+2025-02-28 22:24:00,189 - __main__ - INFO - PyTorch model evaluation - Accuracy: 0.7671
+2025-02-28 22:24:00,192 - __main__ - INFO - Confusion Matrix:
+[[2999    1]
+ [ 973  209]]
+2025-02-28 22:24:00,194 - __main__ - INFO - ==================================================
+2025-02-28 22:24:00,195 - __main__ - INFO - Experiment WITHOUT stemming - Results Summary
+2025-02-28 22:24:00,197 - __main__ - INFO - ==================================================
+2025-02-28 22:24:00,198 - __main__ - INFO - FFNN from scratch accuracy: 0.7174
+2025-02-28 22:24:00,200 - __main__ - INFO - PyTorch FFNN accuracy: 0.7671
+2025-02-28 22:24:00,201 - __main__ - INFO - Total time: 202.92 seconds
+2025-02-28 22:24:00,247 - __main__ - INFO - 
+Comparison of Results:
+
+2025-02-28 22:24:00,255 - __main__ - INFO -             Metric NumPy (With Stemming) NumPy (Without Stemming) PyTorch (With Stemming) PyTorch (Without Stemming)
+          Accuracy                0.7174                   0.7174                  0.7549                     0.7671
+   Vocabulary Size                  2581                     3096                    2581                       3096
+Execution Time (s)                207.74                   202.92                  207.74                     202.92
+2025-02-28 22:24:00,955 - __main__ - INFO - Experiments completed

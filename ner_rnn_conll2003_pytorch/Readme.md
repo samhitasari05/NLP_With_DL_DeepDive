@@ -3,7 +3,7 @@
 
 What if your model could **read like a human** — picking out names, places, and organizations from a messy blob of text? That’s the goal of **Named Entity Recognition (NER)**, and this project is all about training different types of RNNs to master it.
 
-This journey was part of AIT 726 (NLP with Deep Learning) at George Mason University, where we built, compared, and analyzed **seven different neural architectures** — each with their own quirks, wins, and lessons.
+This project explores and compares seven different neural architectures for Named Entity Recognition — each with its own quirks, strengths, and insights. From simple RNNs to advanced BiGRUs with trainable embeddings, the goal was to uncover what really works in sequence labeling.
 
 ---
 

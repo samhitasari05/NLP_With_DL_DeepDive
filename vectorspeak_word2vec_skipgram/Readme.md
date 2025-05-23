@@ -2,8 +2,6 @@
 
 This project implements a Skip-Gram model with Negative Sampling using Word2Vec to learn **semantic word embeddings** from airline tweets. It compares two modeling approaches: **Logistic Regression** and a **Feedforward Neural Network (FFNN)**.
 
-🧪 Completed for AIT 726: NLP with Deep Learning at George Mason University.
-
 ---
 
 ## ✈️ Project Overview

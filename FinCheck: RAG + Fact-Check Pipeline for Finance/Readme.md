@@ -1,4 +1,4 @@
-#FinCheck: Financial Claim Verification Pipeline
+##FinCheck: Financial Claim Verification Pipeline
 
 FinCheck is a retrieval-augmented, multi-agent fact-checking system designed to verify the credibility of financial claims using a layered architecture of retrieval, language modeling, and confidence-based decision logic. This project was developed to address the growing challenge of financial misinformation by combining structured knowledge retrieval with advanced generative and verification techniques.
 
